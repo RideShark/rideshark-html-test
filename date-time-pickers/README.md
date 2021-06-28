@@ -2,6 +2,8 @@
 
 Please respond with a static HTML / CSS file which resembles the attached screenshot. This is a sample of UX components you might encounter on a daily basis at RideShark
 
+![Screenshot of RideShark Dashboard Card](https://user-images.githubusercontent.com/6453594/123695562-b1e81300-d828-11eb-842c-2a0288c633e4.png)
+
 ## How we'll grade your submission
 
 Your submission will be graded on the following scale:
