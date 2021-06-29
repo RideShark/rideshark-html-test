@@ -19,3 +19,6 @@ Your submission will be graded on the following scale:
 
 Thank you for your interest in a position at RideShark. We look forward to receiving your submission, and hope to be speaking with you soon regarding your interview process.
 
+## Helpful information about this design
+
+This design uses "Poppins" as its font.
