@@ -6,6 +6,29 @@ Please respond with a static HTML / CSS file which resembles the attached screen
 
 ## How we'll grade your submission
 
+Becuase different developers have different strengths, we've split this test into two tracks - the Developer Track, and the Designer Track.
+
+### Developer Track
+
+In this track, we'll be primarily grading your sumbission on the functionality of the submission. While you will be required in the HTML to have a calendar, list of entries for each day, etc. we won't take into account the aethetics of the submission.
+
+Your functional submission should perform the following:
+
+ - You should create a "single page app", either with vanilla Javascript, or a framework of your choosing.
+ - A data structure should exist inside your app, containing a list of "entries".
+ - Each "entry" should have the following attributes:
+   - Date
+   - Label
+   - Entry type (which will correspond with an icon).
+ - Clicking on the previous / next month buttons in the calendar, should appropriately change the days visible on the calendar.
+ - Clicking on an individual day in the calendar, should change the summary list on the right-hand side, to show data which is logged on that date.
+ - Clicking "Log a Trip" should add a new entry. You may either use a form to allow the user to select their own values, or can add one randomly.
+
+
+### Designer Track
+
+In this track, we'll be primarily grading your sumbission on the layout and visual appearance of the HTML.
+
 Your submission will be graded on the following scale:
 
 | Category | Level 1 | Level 2 | Level 3 | Level 4 |
