@@ -24,6 +24,16 @@ Your functional submission should perform the following:
  - Clicking on an individual day in the calendar, should change the summary list on the right-hand side, to show data which is logged on that date.
  - Clicking "Log a Trip" should add a new entry. You may either use a form to allow the user to select their own values, or can add one randomly.
 
+Each aspec will be graded on the following scale:
+
+| Category | Level 1 | Level 2 | Level 3 | Level 4 |
+|----------|---------|---------|---------|---------|
+| Data Management | Data is stored in a global variable | A closure or IIFE is used to store the data | LocalStorage is used to store the data | A separate JavaScript class has responsibility to store the data, and uses either LocalStorage or IndexedDB to persist the data between page reloads. |
+| Entries | Entries are used as plain Javascript Objects | Entries have a function which creates them in a consistent manner | Entries are managed immutably | A framework such as Immer or Immutable.JS is used to manage entries and ensure immutability |
+| Calendar Navigation | Clicking next / prev changes dates on the calendar | Dates in previous months are still visible, and a different color | Dates on the calendar which contain data are highlighted, indicating that they contain data | Dates on the calendar in previous months also highlight when they contain data |
+| Viewing summary | The summary is visible the first time you load the page, but does not correctly reload | Clicking on a calendar date shows the summaries which correspond with the date | Clicking on empty dates shows a message saying "You have no data on this date" | Clicking on dates which are more than 7 days in the past, shows a message saying "No data can be logged for this date, it is too far in the past" in the summary, in addition to other data |
+| Log a Trip Button | The button does nothing | The button adds an entry randomly |  The button adds an entry randomly on the same date | The button launches a popover window, allowing the user to enter the type of activity and perhaps other data |
+
 
 ### Designer Track
 
